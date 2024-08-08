@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="report.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="crt.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="img/logo.jpeg" alt="" class="logo img-fluid">
+        <a class="navbar-brand" href="#">Young <br>Codebits</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="portal.html">Portal</a></li>
+                <li class="nav-item"><a class="nav-link" href="event.html">Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="admission.html">Admissions</a></li>
+                </ul>
+            </div>
+    </nav>
+
+    <main>
+        <section-frm">
+            <form id="grd-form">
+                <div class="frm-hd">
+                    <legend>Subject</legend>
+                    <legend>Grade</legend>
+                </div>
+
+                <div class="frm-coln">
+                    <label for="grade">Math :</label>
+                    <input class="grade" type="number" max = "100">
+                </div>
+                <div class="frm-coln">
+                    <label for="grade">English :</label>
+                    <input class="grade" type="number" max = "100">
+                </div>
+                <div class="frm-coln">
+                    <label for="grade">Int Science :</label>
+                    <input class="grade" type="number" max = "100">
+                </div>
+                <div class="frm-coln">
+                    <label for="grade">Government :</label>
+                    <input class="grade" type="number" max = "100">
+                </div>
+                <div class="frm-coln">
+                    <label for="grade">Yoruba :</label>
+                    <input class="grade" type="number" max = "100">
+                </div>
+                <button type="submit">Generate Result</button>
+            </form>
+        </section>
+
+        <section class="rpt-result">
+            <div class="rpt-card">
+                <div class="lt-head">
+                    <h2>Young Codebits</h2>
+                </div>
+                <div class="lbl">
+                    <h3>Subject</h3>
+                    <h3>Score</h3>
+                    <h3>Grade</h3>
+                </div>
+                <div class="crd-body">
+                    <div class="crd-cln">
+                        <p class="subj">Math</p>
+                        <p class="scr"></p>
+                        <p class="grd"></p>
+                    </div>
+                    <div class="crd-cln">
+                        <p class="subj">English</p>
+                        <p class="scr"></p>
+                        <p class="grd"></p>
+                    </div>
+                    <div class="crd-cln">
+                        <p class="subj">Int Science</p>
+                        <p class="scr"></p>
+                        <p class="grd"></p>
+                    </div>
+                    <div class="crd-cln">
+                        <p class="subj">Government</p>
+                        <p class="scr"></p>
+                        <p class="grd"></p>
+                    </div>
+                    <div class="crd-cln">
+                        <p class="subj">Yoruba</p>
+                        <p class="scr"></p>
+                        <p class="grd"></p>
+                    </div>
+                </div>
+                
+                <div class="crd-ft">
+                    <p id="t-prcnt"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light py-4 mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h2>Young <br> Codebits</h2>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="mb-3">
+                <a href="#" class="text-dark mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-dark mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-dark mx-2"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-dark mx-2"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="text-dark mx-2"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <ul class="nav flex-column text-right">
+                <li class="nav-item"><a class="nav-link text-dark" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#">About Us</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#">Portal</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#">Events</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#">Admissions</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="text-center mt-3">
+            <p class="mb-0">© 2024 Young Codebits. Designed by Tim.</p>
+          </div>
+        </div>
+      </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <script src="report.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+
+.logo {
+    width: 70px;
+}
+
+.get-result {
+  border-radius: 5px;
+  color: white;
+}
+
+.hero {
+    background-image: url(img/nguyen-khanh-ly-liiusuaISP0-unsplash.jpeg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    color: white;
+}
+
+.classImg{
+    width: 200px;
+}
+
+.event-img {
+    height: 200px;
+}
+
+.rsz-img {
+    height: 300px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   }
+   .container-flex {
+    flex: 1;
+   }
+   footer {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+    margin-top: auto;
+   }
+   
+   .flex-grow-1 {
+    flex-grow: 1;
+   }
+   
+  
+  .logo {
+    width: 70px;
+  }
+  
+  .hero {
+    background-image: url(img/nguyen-khanh-ly-liiusuaISP0-unsplash.jpeg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    color: white;
+  }
+  
+  .classImg{
+    width: 200px;
+  }
+  
+  .fac-img {
+    height: 200px;
+  }
+  
+  .portalInput {
+    border-radius: 10px;
+  }

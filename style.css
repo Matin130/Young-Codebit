@@ -1,0 +1,125 @@
+/* 
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    color: rgb(255, 0, 144);
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgba(213, 73, 120, 0.729);
+    border: none;
+    border-radius: 5px;
+}
+
+nav
+.nav-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    background-color: rgba(213, 73, 120, 0.729);
+}
+
+.logo {
+    font-size: 1.7em;
+    color: #fff;
+}
+
+.nav-cont ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-cont ul li {
+    padding: 0 15px;
+}
+
+header */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 1.95em;
+}
+.hero {
+    background-image: url(img/vasily-koloda-8CqDvPuo_kI-unsplash.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    width: 90%;
+    height: 70vh;
+    margin: 130px auto;
+}
+
+.over{
+    z-index:2;
+    height:100%;
+    width:100%;
+    opacity:0.4;
+    position:absolute;
+  }
+  .hro-img {
+    z-index:3;
+    height:100%;
+    width:100%;
+    padding: 20% 0 30px 0;
+    background: hsla(0, 0%, 0%, 0.591);
+  }
+  .hro-img p, .hro-img h2 {
+    color: #FFFFFF;
+  }
+
+  .form-sec {
+    margin: 130px auto;
+  }
+/*
+  .class-offered-cont, .members-cont {
+    margin: 30px auto;
+    width: 90%;
+    border: 3px solid #fff;
+    text-align: center;
+  }
+  .jss, .sss {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: px;
+    margin: 10px auto;
+  }
+
+  .class, .member-card {
+    width: 33%;
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: rgba(213, 73, 120, 0.26);
+    border-radius: 5px;
+  }
+  .class img, .member-card img {
+    width: 100%;
+  }
+
+
+  .class-dsp, .rest {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .member-card img {} */
